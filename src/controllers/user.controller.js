@@ -22,7 +22,6 @@ const generateAccessAndRefreshTokens = async(userId)=>{
     }
 }
 
-
 const registerUser = asyncHandler( async (req,res)=>{
     //get user data
     //validation - not empty
